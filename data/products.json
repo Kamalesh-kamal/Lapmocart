@@ -1,0 +1,320 @@
+{
+  "products": [
+    {
+      "id": "sga05",
+      "rate": 13999,
+      "type": "mobile",
+      "name": "Samsung Galaxy A05s",
+      "img": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a057fzkhins/gallery/in-galaxy-a-sm-a057fzkhins-front-black-538631021?$400_256_PNG$",
+      "company": "samsung",
+      "RAM": ["6GB", "4GB"],
+      "ROM": ["128GB"],
+      "battery": "5000mah",
+      "camera": {
+        "front-camera": "13MP",
+        "back-camera": "50MP"
+      },
+      "processor": ["Snapdragon 680", "Octa Core", "2.4Ghz"],
+      "display": "6.72 inch"
+    },
+
+    {
+      "id": "sgs23",
+      "rate": 64999,
+      "type": "mobile",
+      "name": "Samsung Galaxy S23 FE",
+      "img": " https://images.samsung.com/is/image/samsung/p6pim/in/sm-s711bzbbins/gallery/in-galaxy-s23-fe-s711-sm-s711bzbbins-thumb-538353643?$240_240_PNG$",
+      "company": "samsung",
+      "RAM": ["6GB", "4GB"],
+      "ROM": ["128GB", "64GB"],
+      "battery": "5000mah",
+      "camera": {
+        "front-camera": "13MP",
+        "back-camera": "50MP"
+      },
+      "processor": ["Qualcomm Snapdragon 8 Gen 2", "Octa Core", "3.36Ghz"],
+      "display": "6.1 inch"
+    },
+    {
+      "id": "sgf34",
+      "rate": 20499,
+      "type": "mobile",
+      "name": "Samsung Galaxy F34",
+      "img": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-e346bzkdins/gallery/in-galaxy-f34-6gb-ram-sm-e346bzkdins-thumb-537686762?$152_152_PNG$",
+      "company": "samsung",
+      "RAM": ["6GB", "4GB"],
+      "ROM": ["128GB", "64GB"],
+      "battery": "5000mah",
+      "camera": {
+        "front-camera": "13MP",
+        "back-camera": "50MP"
+      },
+      "processor": ["Exynos 1280", "Octa Core", "2.4Ghz"],
+      "display": "6.72 inch"
+    },
+    {
+      "id": "mi13c",
+      "name": "Redmi 13C",
+      "rate": 17499,
+      "type": "mobile",
+      "img": "https://i03.appmifile.com/188_item_in/05/12/2023/c4d48a6e9668fe4f8d7a82d10fd9add3.jpg",
+      "company": "Redmi",
+      "RAM": ["8GB", "6GB", "4GB"],
+      "ROM": ["256GB", "128GB", "64GB"],
+      "battery": "5000mah",
+      "camera": {
+        "front-camera": "13MP",
+        "back-camera": "50MP"
+      },
+      "processor": ["Mediatek", "Octa Core", "1Ghz"],
+      "display": "6.72 inch"
+    },
+    {
+      "id": "min12",
+      "rate": 19999,
+      "type": "mobile",
+      "name": "Redmi Note 12",
+      "img": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1672876181.4498546.jpg?width=400&height=400",
+      "company": "Redmi",
+      "RAM": ["6GB"],
+      "ROM": ["128GB", "64GB"],
+      "battery": "5000mah",
+      "camera": {
+        "front-camera": "13MP",
+        "back-camera": "50MP"
+      },
+      "processor": ["Snapdragon 685", "Octa Core", "2.8Ghz"],
+      "display": "6.67 inch"
+    },
+    {
+      "id": "mi11i",
+      "rate": 28999,
+      "type": "mobile",
+      "name": "Xiaomi 11i HyperCharge",
+      "img": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1641486123.88036669.png?f=webp",
+      "company": "Redmi",
+      "RAM": ["8GB", "6GB"],
+      "ROM": ["128GB"],
+      "battery": "5160mah",
+      "camera": {
+        "front-camera": "16MP",
+        "back-camera": "108MP"
+      },
+      "processor": ["Mediatek Dimensity 920", "Octa Core", "2.5 Ghz"],
+      "display": "6.67 inch"
+    },
+    {
+      "id": "mi11lne",
+      "rate": 25999,
+      "type": "mobile",
+      "name": "Xiaomi 11 Lite NE",
+      "img": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1632833475.19487874.png?width=400&height=400",
+      "company": "Redmi",
+      "RAM": ["8GB", "6GB"],
+      "ROM": ["128GB"],
+      "battery": "4250mah",
+      "camera": {
+        "front-camera": "16MP",
+        "back-camera": "64MP"
+      },
+      "processor": ["Qualcomm Snapdragon 778G", "Octa Core", "2.4 Ghz"],
+      "display": "6.67 inch"
+    },
+    {
+      "id": "opnce3",
+      "rate": 21999,
+      "type": "mobile",
+      "name": "OnePlus Nord CE",
+      "img": "https://image01-in.oneplus.net/india-oneplus-statics-file/epb/202306/26/CkE70AKt4OfexWaJ.png?x-amz-process=image/format,webp/quality,Q_80",
+      "company": "oneplus",
+      "RAM": ["8GB"],
+      "ROM": ["256GB", "128GB"],
+      "battery": "5000mah",
+      "camera": {
+        "front-camera": "16MP",
+        "back-camera": "108MP"
+      },
+      "processor": ["snapdragon", "Octa Core", "2.42 Ghz"],
+      "display": "6.72 inch"
+    },
+    {
+      "id": "op11r",
+      "rate": 38999,
+      "type": "mobile",
+      "name": "OnePlus 11R 5G",
+      "img": "https://image01-in.oneplus.net/india-oneplus-statics-file/epb/202302/02/kjgeQwHFysCxzQBY.png?x-amz-process=image/format,webp/quality,Q_80",
+      "company": "oneplus",
+      "RAM": ["8GB", "6GB", "4GB"],
+      "ROM": ["512GB", "256GB", "128GB"],
+      "battery": "5000mah",
+      "camera": {
+        "front-camera": "16MP",
+        "back-camera": "50MP"
+      },
+      "processor": ["snapdragon", "Octa Core", "3.2 Ghz"],
+      "display": "6.7 inch"
+    },
+    {
+      "id": "op10p",
+      "rate": 66999,
+      "type": "mobile",
+      "name": "OnePlus 10 Pro 5G",
+      "img": "https://image01-in.oneplus.net/india-oneplus-statics-file/epb/202211/30/4TWtXaKpsZEnTUOI.png?x-amz-process=image/format,webp/quality,Q_80",
+      "company": "oneplus",
+      "RAM": ["8GB"],
+      "ROM": ["128GB"],
+      "battery": "5000mah",
+      "camera": {
+        "front-camera": "16MP",
+        "back-camera": "50MP"
+      },
+      "processor": ["snapdragon", "Dual Core", "2.4 Ghz"],
+      "display": "6.7 inch"
+    },
+    {
+      "id": "hpv15fa1145TX",
+      "rate": 74199,
+      "type": "laptop",
+      "name": "HP Victus-15",
+      "model": "fa1145TX",
+      "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c08192495_25.png",
+      "company": "HP",
+      "RAM": ["16GB DDR4"],
+      "ROM": ["1TB SSD"],
+      "camera": "HP Wide Vision 720p HD",
+      "processor": "12th GEN Intel Core i5",
+      "display": "15.6 inch",
+      "Operating System": "Windows 11 Home",
+      "Graphic Card": "NVIDIA GeForce RTX 2050",
+      "Graphics Memory": "4 GB"
+    },
+    {
+      "id": "hpv15hr0001TU",
+      "rate": 74199,
+      "type": "laptop",
+      "name": "HP Victus-15",
+      "model": "hr0001TU",
+      "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c08510782_1.png",
+      "company": "HP",
+      "RAM": ["16GB DDR4"],
+      "ROM": ["512GB SSD"],
+      "camera": "HP Wide Vision 720p HD",
+      "processor": "13th GEN Intel Core i5",
+      "display": "15.6 inch",
+      "Operating System": "Windows 11 Home",
+      "Graphic Card": "Intel Integrated Iris Xe"
+    },
+    {
+      "id": "hppa13be2048au",
+      "rate": 74199,
+      "type": "laptop",
+      "name": "HP Pavilion Aero",
+      "model": "13be2048AU",
+      "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c07964709_1.png",
+      "company": "HP",
+      "RAM": ["16GB DDR4"],
+      "ROM": ["1TB SSD"],
+      "camera": "HP Wide Vision 720p HD",
+      "processor": "Ryzen 7 Octa Core",
+      "display": "13.3 inch",
+      "Operating System": "Windows 11 Home",
+      "Graphic Card": "AMD Radeon"
+    },
+    {
+      "id": "dellam16r1",
+      "rate": 309489,
+      "type": "laptop",
+      "name": "Dell Alienware ",
+      "model": "m16 R1",
+      "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/alienware-notebooks/alienware-m16-amd/media-gallery/usb-data/laptop-alienware-m16-amd-bk-usb-gallery-2.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500",
+      "company": "Dell",
+      "RAM": ["32GB DDR5"],
+      "ROM": ["1TB SSD"],
+      "camera": " Wide Vision 720p HD",
+      "processor": "AMD Ryzen™ 9 7845HX",
+      "display": "16 inch",
+      "Operating System": "Windows 11 Home",
+      "Graphic Card": "NVIDIA® GeForce RTX™ 4080, 12 GB GDDR6"
+    },
+    {
+      "id": "delli14",
+      "rate": 56390,
+      "type": "laptop",
+      "name": "Dell Inspirion",
+      "model": "14",
+      "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/14-5435-amd/media-gallery/touch/silver/in5435t-cnb-00000ff090-sl-1pc.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500",
+      "company": "Dell",
+      "RAM": ["16GB DDR4"],
+      "ROM": ["512GB SSD"],
+      "camera": " Wide Vision 720p HD",
+      "processor": "AMD Ryzen™ 7 7730U ",
+      "display": "14 inch",
+      "Operating System": "Windows 11 Home",
+      "Graphic Card": "AMD Radeon™ Graphics"
+    },
+    {
+      "id": "dellng15",
+      "rate": 72490,
+      "type": "laptop",
+      "name": "Dell G15",
+      "model": "",
+      "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/g-series/g15-5535/media-gallery/black/1-zone-coral-kb/notebook-g15-5535-nt-bk-coral-gallery-12.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500",
+      "company": "Dell",
+      "RAM": ["16GB DDR5"],
+      "ROM": ["1TB SSD"],
+      "camera": " Wide Vision 720p HD",
+      "processor": "AMD Ryzen™5 7640HS",
+      "display": "14 inch",
+      "Operating System": "Windows 11 Home",
+      "Graphic Card": "NVIDIA® GeForce RTX™ 3050"
+    },
+    {
+      "id": "atufga15",
+      "rate": 94990,
+      "type": "laptop",
+      "name": "ASUS TUF",
+      "model": "A15",
+      "img": "https://dlcdnwebimgs.asus.com/gain/7909b0a1-1457-4953-a9e7-41b2be78affa/w185/fwebp",
+      "company": "Dell",
+      "RAM": ["16GB DDR5"],
+      "ROM": ["512GB SSD"],
+      "camera": " Wide Vision 720p HD",
+      "processor": "AMD Ryzen™9 7040",
+      "display": "15.6 inch",
+      "Operating System": "Windows 11 Home",
+      "Graphic Card": "NVIDIA® GeForce RTX™ 4060"
+    },
+    {
+      "id": "arsg17",
+      "rate": 88990,
+      "type": "laptop",
+      "name": "ASUS ROG Strix G",
+      "model": "",
+      "img": "https://dlcdnwebimgs.asus.com/gain/A46F5949-5162-4067-A37B-95AB8EFEBA84/w717/h525/w260",
+      "company": "Azus",
+      "RAM": ["16GB DDR5"],
+      "ROM": ["1TB SSD"],
+      "camera": " Wide Vision 720p HD",
+      "processor": "AMD Ryzen™ 9 6900HX",
+      "display": "15.6 inch",
+      "Operating System": "Windows 11 Home",
+      "Graphic Card": "NVIDIA® GeForce RTX™ 3070Ti"
+    },
+    {
+      "id": "azbp14",
+      "rate": 109990,
+      "type": "laptop",
+      "name": "ASUS Zenbook pro 14",
+      "model": "",
+      "img": "https://dlcdnwebimgs.asus.com/gain/5ddb629d-81c4-4b6c-a935-5d8049ff99c6/w185/fwebp",
+      "company": "Azus",
+      "RAM": ["16GB DDR5"],
+      "ROM": ["512GB SSD"],
+      "camera": " Wide Vision 720p HD",
+      "processor": "13th Gen Intel® Core™ i5 ",
+      "display": "13.3 inch",
+      "Operating System": "Windows 11 Home",
+      "Graphic Card": "NVIDIA GeForce RTX 4050 "
+    }
+  ]
+}
