@@ -11,7 +11,7 @@ function Header() {
   }
 
   return (
-    <div className="flex flex-row justify-between  w-full h-full sticky top-0 px-3 bg-slate-100  z-10 md:flex-row">
+    <div className="flex flex-row justify-between  w-full h-full sticky top-0 px-3 bg-[#202020]  text-[#fff] z-20 md:flex-row">
       <Logo />
       <div className="hidden md:block">
         <Navbar onChange={showNav} />

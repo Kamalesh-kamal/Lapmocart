@@ -5,7 +5,7 @@ import { formatCurrency } from "../../utilities/helpers";
 
 /* eslint-disable react/prop-types */
 function OrderItem({ item }) {
-  const { name, img, price, quantity } = item;
+  const { name, img, rate:price, quantity } = item;
 
   return (
     <div className="flex  flex-col ">

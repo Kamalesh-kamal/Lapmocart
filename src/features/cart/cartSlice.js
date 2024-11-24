@@ -22,13 +22,13 @@ const cartSlice = createSlice({
     },
     increaseItemQuantity(state, action) {
       const item = state.cart.find((item) => item.id === action.payload);
-      item.quantity += 1;
+      item.quantity += +1;
       // totalPrice has static value of rate so every time the item.price changes the total price remain same
       localStorage.setItem("cart", JSON.stringify(state.cart));
     },
     decreaseItemQuantity(state, action) {
       const item = state.cart.find((item) => item.id === action.payload);
-      item.quantity -= 1;
+      item.quantity -= +1;
       
       localStorage.setItem("cart", JSON.stringify(state.cart));
     },
@@ -51,6 +51,6 @@ export const getCartQuantity = (state) =>
   state.cart.cart.reduce((sum, item) => sum + item.quantity, 0);
 
 export const getCartPrice = (state) =>
-  state.cart.cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  state.cart.cart.reduce((sum, item) => sum + item.rate * item.quantity, 0);
 
 export default cartSlice.reducer;

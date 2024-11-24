@@ -6,10 +6,9 @@ import { decreaseItemQuantity, deleteItem } from "./cartSlice";
 import { useNavigate } from "react-router-dom";
 import { increaseItemQuantity } from "./cartSlice";
 
-
 function CartItem({ item }) {
   const dispatch = useDispatch();
-  const { id, img, name, price, quantity } = item;
+  const { id, img, name, rate,quantity} = item;
 
   function handleDeleteCart() {
     dispatch(deleteItem(id));
@@ -36,11 +35,11 @@ function CartItem({ item }) {
         onClick={handleNavigation}
       >
         <img src={img} alt={name} className="h-20" />
-        <h1>{formatCurrency(price)}</h1>
+        <h1>{formatCurrency(rate)}</h1>
       </div>
 
       <div className="flex justify-between items-center gap-3 ">
-        {quantity === 1 ? (
+        {quantity == 1 ? (
           <button
             className="bg-sky-200 m-2  w-7 h-7 rounded-full "
             onClick={handleDecrement}
@@ -57,7 +56,7 @@ function CartItem({ item }) {
           </button>
         )}
         {quantity}
-        {quantity === 3 ? (
+        {quantity == 3 ? (
           <button
             className="bg-sky-200 m-2  w-7 h-7 rounded-full"
             onClick={handleIncrement}

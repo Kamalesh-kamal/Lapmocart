@@ -1,14 +1,13 @@
 import { useState } from "react";
 import { IoIosArrowDropright } from "react-icons/io";
 import { IoIosArrowDropleft } from "react-icons/io";
+import sliderImg1 from "../../images/img-1.png";
+import sliderImg2 from "../../images/img-2.png";
 
 /* eslint-disable no-unused-vars */
 function Slider() {
   const [imageIndex, setImageIndex] = useState(0);
-  const slides = [
-    { url: "src/images/img-1.png" },
-    { url: "src/images/img-2.png" },
-  ];
+  const slides = [{ url: sliderImg1 }, { url: sliderImg2 }];
 
   const handleInc = () => {
     setImageIndex((prevIndex) => (prevIndex === 1 ? 0 : prevIndex + 1));
@@ -41,6 +40,7 @@ function Slider() {
           />
         </button>
       </div>
+     
     </div>
   );
 }

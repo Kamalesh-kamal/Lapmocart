@@ -7,14 +7,14 @@ function Navbar() {
   const totalCartItems = useSelector(getCartLength);
 
   return (
-    <div className="flex  justify-between   gap-3  md:flex-row md:items-center md:mt-3 ">
+    <div className="flex  justify-between   gap-3 z-20  md:flex-row md:items-center md:mt-3 ">
       <NavLink to="/">Home</NavLink>
       <NavLink to="/products">Product</NavLink>
       <NavLink to="/cart">
         {cartItems.length !== 0 ? (
           <p>
             Cart(
-            <span className="text-sm text-blue-700">{totalCartItems}</span>)
+            <span className="text-sm text-[#fff]">{totalCartItems}</span>)
           </p>
         ) : (
           "Cart"

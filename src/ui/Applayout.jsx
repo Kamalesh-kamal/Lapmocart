@@ -12,7 +12,7 @@ function Applayout() {
       {isLoading && <Loader/>}
       <Header />
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
