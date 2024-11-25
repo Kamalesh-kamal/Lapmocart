@@ -1,10 +1,9 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import { useParams, useSearchParams } from "react-router-dom";
-import { products } from "../../data/data";
 import { useState } from "react";
 
-function MobSortFilter({ id }) {
+function MobSortFilter({ setVisible, uniqueCompanies, setShow, data }) {
   const [searchParams, setSearchParams] = useSearchParams();
   const [selectedFilter, setSelectedFilter] = useState(
     searchParams.get("productsFilterBy") || "all"
@@ -12,11 +11,6 @@ function MobSortFilter({ id }) {
   const [selectedSortby, setSelectedSortby] = useState(
     searchParams.get("productsSortBy") || "name-asc"
   );
-
-  const companies = {
-    mobile: ["Redmi", "Oneplus"],
-    laptop: ["HP", "Dell"],
-  };
 
   const sortOptions = [
     { value: "name-asc", name: "Name-(A-Z)" },
@@ -37,9 +31,20 @@ function MobSortFilter({ id }) {
   }
 
   return (
-    <div className="h-[150svh] w-[100%] flex flex-col items-start p-5 gap-5 border absolute bg-black top-12 text-[#fff]">
+    <div className="h-[95svh] w-[100%] flex flex-col items-start p-5 gap-5 border absolute bg-black top-12 text-[#fff] overflow-y-hidden">
+      <div>
+        <button
+          className="bg-blue-500 text-[#fff] px-5 py-1 rounded-2xl"
+          onClick={() => {
+            setVisible((prev) => !prev);
+            setShow((prev) => !prev);
+          }}
+        >
+          X
+        </button>
+      </div>
       <div className="flex flex-col gap-1 justify-center ">
-        <h1>FilterBy </h1>
+        <h1 className="font-bold">FilterBy </h1>
 
         <label className="">
           <input
@@ -52,7 +57,7 @@ function MobSortFilter({ id }) {
           />
           All
         </label>
-        {companies[id].map((company, i) => (
+        {uniqueCompanies.map((company, i) => (
           <label key={i}>
             <input
               type="checkbox"
@@ -67,7 +72,7 @@ function MobSortFilter({ id }) {
         ))}
       </div>
       <div className="flex flex-col justify-center  gap-1">
-        <h1>SortBy</h1>
+        <h1 className="font-bold">SortBy</h1>
         {sortOptions.map((itm, i) => (
           <label key={i}>
             <input
@@ -81,6 +86,14 @@ function MobSortFilter({ id }) {
             {itm.name}
           </label>
         ))}
+      </div>
+      <div>
+        <label className="font-bold">
+          TOTAL PRODUCTS=
+          <span className="bg-blue-500 text-[#fff] px-5 py-1 rounded-2xl">
+            {data.length}
+          </span>
+        </label>
       </div>
     </div>
   );

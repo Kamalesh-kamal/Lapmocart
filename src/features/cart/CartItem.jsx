@@ -3,21 +3,15 @@
 import { useDispatch } from "react-redux";
 import { formatCurrency } from "../../utilities/helpers";
 import { decreaseItemQuantity, deleteItem } from "./cartSlice";
-import { useNavigate } from "react-router-dom";
 import { increaseItemQuantity } from "./cartSlice";
+import { RiDeleteBinLine } from "react-icons/ri";
 
 function CartItem({ item }) {
   const dispatch = useDispatch();
-  const { id, img, name, rate,quantity} = item;
+  const { id, img, name, rate, quantity } = item;
 
   function handleDeleteCart() {
     dispatch(deleteItem(id));
-  }
-
-  const navigate = useNavigate();
-
-  function handleNavigation() {
-    navigate(`/products/${id}`, { replace: true });
   }
 
   function handleIncrement() {
@@ -30,12 +24,12 @@ function CartItem({ item }) {
 
   return (
     <div className="flex flex-col justify-between   items-center m-5 bg-white shadow-md p-3 hover:bg-slate-50 border-slate-50 rounded-lg md:flex-row ">
-      <div
-        className="flex justify-between items-center gap-4"
-        onClick={handleNavigation}
-      >
+      <div className="flex justify-between items-center gap-4">
         <img src={img} alt={name} className="h-20" />
-        <h1>{formatCurrency(rate)}</h1>
+        <div>
+          <h1 className="font-bold">{name}</h1>
+          <h1>{formatCurrency(rate)}</h1>
+        </div>
       </div>
 
       <div className="flex justify-between items-center gap-3 ">
@@ -77,7 +71,7 @@ function CartItem({ item }) {
             onClick={handleDeleteCart}
             className="bg-red-500 rounded-full p-2 text-stone-50"
           >
-            Delete
+            <RiDeleteBinLine />
           </button>
         </div>
       </div>

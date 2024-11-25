@@ -19,7 +19,7 @@ function ProductItems({ item, setActive }) {
           return (
             <div
               key={i}
-              className=" h-[230px] w-[80px] flex flex-col items-center justify-around px-2 shadow-md rounded-md  md:h-[200px] md:w-[200px]"
+              className=" h-[250px] w-[80px] flex flex-col items-center justify-around px-2 shadow-md rounded-md  md:h-[200px] md:w-[200px]"
               onClick={() => setActive(itm.id)}
             >
               <img

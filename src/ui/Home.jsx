@@ -2,6 +2,7 @@ import Slider from "../features/slider/Slider";
 import Banner from "../features/banner/Banner";
 import MobileSlider from "../features/slider/mobileSlider";
 import LaptopSlider from "../features/slider/LaptopSlider";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Slider />
       <MobileSlider />
       <LaptopSlider />
+      <Footer />
     </div>
   );
 }

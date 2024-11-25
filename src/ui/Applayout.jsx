@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { Outlet, useNavigation } from "react-router-dom";
 import Header from "./Header";
-import Footer from "./Footer";
 import Loader from "./Loader";
 
 function Applayout() {
@@ -12,7 +11,6 @@ function Applayout() {
       {isLoading && <Loader/>}
       <Header />
       <Outlet />
-      {/* <Footer /> */}
     </div>
   );
 }

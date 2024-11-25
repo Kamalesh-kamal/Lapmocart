@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { getCart, getCartPrice, getCartQuantity } from "./cartSlice";
 import CartItem from "./CartItem";
 import { formatCurrency } from "../../utilities/helpers";
+import Footer from "../../ui/Footer"
 
 function Cart() {
   const cart = useSelector(getCart);
@@ -10,11 +11,12 @@ function Cart() {
   const totalQuantity = useSelector(getCartQuantity);
 
   const totalPrice = useSelector(getCartPrice);
+  const navigate = useNavigate();
 
   return (
     <>
       <Link
-        to={"/products"}
+        onClick={() => navigate(-1)}
         className="mx-2 underline decoration-solid text-sky-600"
       >
         ← Back to Products
@@ -30,7 +32,7 @@ function Cart() {
           "Add some items to cart"
         )}
 
-        <div className="flex flex-col justify-between items-start m-14 rounded-lg shadow-md md:flex-row md:p-3 ">
+        <div className="flex flex-col justify-between items-start m-14 rounded-lg shadow-md md:flex-row md:p-3 font-bold ">
           <p>Total Items : {totalQuantity} </p>
           <p>Total Cost : {formatCurrency(totalPrice)}</p>
 
@@ -52,6 +54,7 @@ function Cart() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
